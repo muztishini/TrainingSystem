@@ -1,3 +1,10 @@
 from django.contrib import admin
+from .models import User, UserProductAccess, Lesson, Product, Group, Author
 
-# Register your models here.
+
+admin.site.register(User)
+admin.site.register(Author)
+admin.site.register(UserProductAccess)
+admin.site.register(Lesson)
+admin.site.register(Product)
+admin.site.register(Group)
